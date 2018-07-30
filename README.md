@@ -1,2 +1,3 @@
 # KVO
 自定义KVO
+通过运行时，创建一个继承自对象p的类对象的子类，子类的名称是NSKVONotifying_Person，然后修改对象p的isa指针指向这个新创建的类。NSKVONotifying_Person类中会修改setAge方法的实现，从而达到监听属性修改的目的。
